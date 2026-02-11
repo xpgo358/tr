@@ -1,5 +1,4 @@
-say [tr] Creating teams...
-
+tellraw @a {"text":"[tr] Creating teams...","color":"yellow"}
 ## Create teams for all prank/recording/streaming status combinations
 
 # Prank 0
@@ -62,4 +61,4 @@ team modify t_p5_r0_s1 suffix {"text":"","extra":[{"text":" ⑤ ","color":"dark_
 team add t_p5_r1_s1
 team modify t_p5_r1_s1 suffix {"text":"","extra":[{"text":" ⑤ ","color":"dark_red"},{"text":"● ","color":"red"},{"text":"●","color":"light_purple"}]}
 
-say [tr] Teams created
+tellraw @a {"text":"[tr] Teams created","color":"green"}

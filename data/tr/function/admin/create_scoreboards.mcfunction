@@ -1,18 +1,18 @@
-say [tr] Creating scoreboards...
+tellraw @a {"text":"[tr] Creating scoreboards...","color":"yellow"}
 
 # Scoreboards
 scoreboard objectives add prank-level dummy
 scoreboard objectives add recording-status dummy
 scoreboard objectives add streaming-status dummy
 
-say [tr] Scoreboards created
+tellraw @a {"text":"[tr] Scoreboards created","color":"green"}
 
 
-say [tr] Creating triggers...
+tellraw @a {"text":"[tr] Creating triggers...","color":"yellow"}
 
 # Triggers
 scoreboard objectives add prank trigger
 scoreboard objectives add streaming trigger
 scoreboard objectives add recording trigger
 
-say [tr] Triggers created   
+tellraw @a {"text":"[tr] Triggers created","color":"green"}

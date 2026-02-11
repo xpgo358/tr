@@ -5,7 +5,7 @@ execute as @a[tag=!tr_init] run scoreboard players set @s streaming-status 0
 execute as @a[tag=!tr_init] run tag @s add tr_init
 
 # Update teams every tick so prefixes stay in sync
-function tr:update_teams
+function tr:admin/update_teams
 
 
 
