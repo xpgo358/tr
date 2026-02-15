@@ -1,2 +1,2 @@
 scoreboard players set @s prank-level 0
-function tr:update_teams
+function tr:admin/update_teams
