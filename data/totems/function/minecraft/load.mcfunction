@@ -1,0 +1,1 @@
+function totems:admin/create_scoreboards

@@ -13,6 +13,10 @@ scoreboard objectives remove help
 scoreboard objectives remove rules
 
 
+# Health scoreboard
+scoreboard objectives remove health
+
+
 # Init Tag and reset scores for all players
 tag @a remove tr_init
 scoreboard players reset *

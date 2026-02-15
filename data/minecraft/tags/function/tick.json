@@ -1,5 +1,6 @@
 {
   "values": [
-    "tr:minecraft/tick"
+    "tr:minecraft/tick",
+    "totems:minecraft/tick"
   ]
 }
