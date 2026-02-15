@@ -1,4 +1,4 @@
-tellraw @a {"text":"[tr] Clearing teams...","color":"yellow"}
+tellraw @a {"text":"[tr] Limpiando teams...","color":"yellow"}
 
 ## Remove all teams related to the prank system, recording and streaming
 
@@ -41,4 +41,4 @@ team remove t_p5_r1_s1
 ## Clear any remaining team memberships
 team leave @a
 
-tellraw @a {"text":"[tr] Teams cleared","color":"green"}
+tellraw @a {"text":"[tr] Teams limpiados","color":"green"}

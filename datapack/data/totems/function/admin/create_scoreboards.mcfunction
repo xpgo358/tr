@@ -1,4 +1,4 @@
-tellraw @a {"text":"[totems] Creating scoreboards...","color":"yellow"}
+tellraw @a {"text":"[totems] Creando marcadores...","color":"yellow"}
 
 #Crear los scoreboards
 scoreboard objectives add used_totem minecraft.used:minecraft.totem_of_undying
@@ -59,4 +59,4 @@ scoreboard objectives add dunya trigger
 scoreboard objectives add luna trigger
 scoreboard objectives add yuki trigger
 
-tellraw @a {"text":"[totems] Scoreboards created","color":"green"}
+tellraw @a {"text":"[totems] Marcadores creados","color":"green"}

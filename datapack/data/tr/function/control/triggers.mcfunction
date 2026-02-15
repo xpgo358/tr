@@ -4,9 +4,12 @@
 execute as @a[scores={prank=0..5}] run scoreboard players operation @s prank-level = @s prank
 
 # Update Streaming (0=No, 1=Yes)
+execute as @a[scores={streaming=0}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{"text":" ya no está en directo","color":"dark_purple",bold:false}]
+execute as @a[scores={streaming=1}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{"text":" está en directo","color":"dark_purple",bold:false}]
 execute as @a[scores={streaming=0..1}] run scoreboard players operation @s streaming-status = @s streaming
-
 # Update Recording (0=No, 1=Yes)
+execute as @a[scores={recording=0}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{"text":" ya no está grabando","color":"red",bold:false}]
+execute as @a[scores={recording=1}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{"text":" está grabando","color":"red",bold:false}]
 execute as @a[scores={recording=0..1}] run scoreboard players operation @s recording-status = @s recording
 
 # Help

@@ -13,7 +13,7 @@ execute as @a[scores={used_totem=1,used_baku=1..}] run tellraw @a [{"text":"¡[p
 execute as @a[scores={tnt=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.3
 execute as @a[scores={tnt=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run item replace entity @s weapon.mainhand with totem_of_undying[item_name={"text":"TNT"},item_model="boom_tnt"]
 execute as @a[scores={tnt=-1}] run scoreboard players set @s tnt 0
-execute as @a[scores={used_totem=1,used_tnt=1..}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{text:" tnt'ed away from death!",color:"yellow","bold":false}]
+execute as @a[scores={used_totem=1,used_tnt=1..}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{text:" se salvó de la muerte gracias a TNT!",color:"yellow","bold":false}]
 
 
 execute as @a[scores={bullet=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.4
@@ -127,7 +127,7 @@ execute as @a[scores={used_totem=1,used_hds=1..}] run tellraw @a [{"text":"¡",c
 execute as @a[scores={totem=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.2
 execute as @a[scores={totem=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run item replace entity @s weapon.mainhand with totem_of_undying[item_name={"text":"Old totem"},item_model="crisho_totem"]
 execute as @a[scores={totem=-1}] run scoreboard players set @s totem 0
-execute as @a[scores={used_totem=1,used_oldtotem=1..}] run tellraw @a [{"text":"¡Tanta nostálgia le ha dado una segunda vida a ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:"!",color:"yellow"}]
+execute as @a[scores={used_totem=1,used_oldtotem=1..}] run tellraw @a [{"text":"¡Tanta nostálgia le ha dado una segunda vida a ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" !",color:"yellow"}]
 
 
 execute as @a[scores={dunya=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.3
