@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Star",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Star",
+      "minecraft:item_model": "estela_star"
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Manchas",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Manchas",
+      "minecraft:item_model": "adiac_manchas"
+    },
+    "count": 1
+  }
+}

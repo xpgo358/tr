@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Old Totem",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Old Totem",
+      "minecraft:item_model": "crisho_totem"
+    },
+    "count": 1
+  }
+}

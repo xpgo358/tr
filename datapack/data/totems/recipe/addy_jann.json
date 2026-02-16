@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Jann",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Jann",
+      "minecraft:item_model": "addy_jann"
+    },
+    "count": 1
+  }
+}
