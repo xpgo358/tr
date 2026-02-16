@@ -131,9 +131,9 @@ execute as @a[scores={used_totem=1,used_oldtotem=1..}] run tellraw @a [{"text":"
 
 
 execute as @a[scores={dunya=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.3
-execute as @a[scores={dunya=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run item replace entity @s weapon.mainhand with totem_of_undying[item_name={"text":"Dunya"},item_model="whiswiim_dunya"]
+execute as @a[scores={dunya=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run item replace entity @s weapon.mainhand with totem_of_undying[item_name={"text":"Dünya"},item_model="whiswiim_dunya"]
 execute as @a[scores={dunya=-1}] run scoreboard players set @s dunya 0
-execute as @a[scores={used_totem=1,used_dunya=1..}] run tellraw @a [{"text":"¡Dunya ha mostrado tanta indiferencia que ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" se ha preocupado tanto por ella, que se ha curado!",color:"yellow"}]
+execute as @a[scores={used_totem=1,used_dunya=1..}] run tellraw @a [{"text":"¡Dünya ha mostrado tanta indiferencia que ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" se ha preocupado tanto por ella, que se ha curado!",color:"yellow"}]
 
 
 execute as @a[scores={luna=-1}] if items entity @s weapon.mainhand minecraft:totem_of_undying run playsound block.note_block.bell master @s ~ ~ ~ 1000 0.4
