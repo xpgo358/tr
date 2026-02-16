@@ -10,7 +10,7 @@
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
-      "minecraft:item_name": "Dunya",
+      "minecraft:item_name": "Dünya",
       "minecraft:item_model": "whiiswim_dunya"
     },
     "count": 1
