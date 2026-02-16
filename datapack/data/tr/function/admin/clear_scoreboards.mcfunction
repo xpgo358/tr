@@ -1,4 +1,4 @@
-tellraw @a {"text":"[tr] Limpiando scoreboards y reiniciando datos de jugadores...","color":"yellow"}
+#tellraw @a {"text":"[tr] Limpiando scoreboards y reiniciando datos de jugadores...","color":"yellow"}
 
 # Status scoreboards
 scoreboard objectives remove prank-level
@@ -21,4 +21,4 @@ scoreboard objectives remove health
 tag @a remove tr_init
 scoreboard players reset *
 
-tellraw @a {"text":"[tr] Scoreboards limpiados y datos de jugadores reiniciados","color":"green"}
+#tellraw @a {"text":"[tr] Scoreboards limpiados y datos de jugadores reiniciados","color":"green"}

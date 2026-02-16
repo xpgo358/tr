@@ -1,32 +1,32 @@
-tellraw @a {"text":"[totems] Creando marcadores...","color":"yellow"}
+#tellraw @a {"text":"[totems] Eliminando marcadores...","color":"yellow"}
 
-#Crear los scoreboards
-scoreboard objectives add used_totem minecraft.used:minecraft.totem_of_undying
-scoreboard objectives add used_felipe dummy
-scoreboard objectives add used_baku dummy
-scoreboard objectives add used_tnt dummy
-scoreboard objectives add used_bullet dummy
-scoreboard objectives add used_danny dummy
-scoreboard objectives add used_escarchita dummy
-scoreboard objectives add used_star dummy
-scoreboard objectives add used_fiona dummy
-scoreboard objectives add used_kiki dummy
-scoreboard objectives add used_jann dummy
-scoreboard objectives add used_lancer dummy
-scoreboard objectives add used_laser dummy
-scoreboard objectives add used_manchas dummy
-scoreboard objectives add used_mika dummy
-scoreboard objectives add used_mixu dummy
-scoreboard objectives add used_neri dummy
-scoreboard objectives add used_patitas dummy
-scoreboard objectives add used_ralsei dummy
-scoreboard objectives add used_rich dummy
-scoreboard objectives add used_thor dummy
-scoreboard objectives add used_hds dummy
-scoreboard objectives add used_oldtotem dummy
-scoreboard objectives add used_dunya dummy
-scoreboard objectives add used_luna dummy
-scoreboard objectives add used_yuki dummy
-scoreboard objectives add used_azalea dummy
+# Eliminar los scoreboards
+scoreboard objectives remove used_totem
+scoreboard objectives remove used_felipe
+scoreboard objectives remove used_baku
+scoreboard objectives remove used_tnt
+scoreboard objectives remove used_bullet
+scoreboard objectives remove used_danny
+scoreboard objectives remove used_escarchita
+scoreboard objectives remove used_star
+scoreboard objectives remove used_fiona
+scoreboard objectives remove used_kiki
+scoreboard objectives remove used_jann
+scoreboard objectives remove used_lancer
+scoreboard objectives remove used_laser
+scoreboard objectives remove used_manchas
+scoreboard objectives remove used_mika
+scoreboard objectives remove used_mixu
+scoreboard objectives remove used_neri
+scoreboard objectives remove used_patitas
+scoreboard objectives remove used_ralsei
+scoreboard objectives remove used_rich
+scoreboard objectives remove used_thor
+scoreboard objectives remove used_hds
+scoreboard objectives remove used_oldtotem
+scoreboard objectives remove used_dunya
+scoreboard objectives remove used_luna
+scoreboard objectives remove used_yuki
+scoreboard objectives remove used_azalea
 
-tellraw @a {"text":"[totems] Marcadores creados","color":"green"}
+#tellraw @a {"text":"[totems] Marcadores eliminados","color":"green"}

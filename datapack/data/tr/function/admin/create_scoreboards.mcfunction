@@ -1,4 +1,4 @@
-tellraw @a {"text":"[tr] Creando scoreboards...","color":"yellow"}
+#tellraw @a {"text":"[tr] Creando scoreboards...","color":"yellow"}
 
 # Scoreboards
 scoreboard objectives add prank-level dummy
@@ -27,4 +27,4 @@ scoreboard objectives add recording trigger
 scoreboard objectives add help trigger
 scoreboard objectives add rules trigger
 
-tellraw @a {"text":"[tr] Triggers creados","color":"green"}
+#tellraw @a {"text":"[tr] Triggers creados","color":"green"}

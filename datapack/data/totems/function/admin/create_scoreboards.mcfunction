@@ -1,6 +1,6 @@
-tellraw @a {"text":"[totems] Creando marcadores...","color":"yellow"}
+#tellraw @a {"text":"[totems] Creando marcadores...","color":"yellow"}
 
-#Crear los scoreboards
+# Crear los scoreboards
 scoreboard objectives add used_totem minecraft.used:minecraft.totem_of_undying
 scoreboard objectives add used_felipe dummy
 scoreboard objectives add used_baku dummy
@@ -29,4 +29,4 @@ scoreboard objectives add used_luna dummy
 scoreboard objectives add used_yuki dummy
 scoreboard objectives add used_azalea dummy
 
-tellraw @a {"text":"[totems] Marcadores creados","color":"green"}
+#tellraw @a {"text":"[totems] Marcadores creados","color":"green"}

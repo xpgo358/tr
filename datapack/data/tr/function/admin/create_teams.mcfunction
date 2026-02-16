@@ -1,4 +1,4 @@
-tellraw @a {"text":"[tr] Creando teams...","color":"yellow"}
+#tellraw @a {"text":"[tr] Creando teams...","color":"yellow"}
 ## Create teams for all prank/recording/streaming status combinations
 
 # Prank 0
@@ -61,4 +61,4 @@ team modify t_p5_r0_s1 suffix {"text":"","extra":[{"text":" ⑤ ","color":"dark_
 team add t_p5_r1_s1
 team modify t_p5_r1_s1 suffix {"text":"","extra":[{"text":" ⑤ ","color":"dark_red",bold:false},{"text":"● ","color":"dark_red",bold:false},{"text":"●","color":"dark_purple",bold:false}]}
 
-tellraw @a {"text":"[tr] Teams creados","color":"green"}
+#tellraw @a {"text":"[tr] Teams creados","color":"green"}
