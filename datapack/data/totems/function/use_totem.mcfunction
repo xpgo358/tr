@@ -255,7 +255,7 @@ execute as @a if items entity @s weapon.offhand minecraft:totem_of_undying[item_
 # Reducir el contador del tótem cada tick
 execute as @a if score @s used_azalea matches 1.. run scoreboard players remove @s used_azalea 1
 # Mostrar mensaje cuando se usa el tótem de Azalea
-execute as @a[scores={used_totem=1,used_azalea=1..}] run tellraw @a [{"text":"¡Azalea ha salvado a ","color":"yellow"},{"selector":"@s","color":"gold","bold":true},{text:" con su poder floral!","color":"yellow"}]
+execute as @a[scores={used_totem=1,used_azalea=1..}] run tellraw @a [{"text":"¡La azalea ha enamorado a ","color":"yellow"},{"selector":"@s","color":"gold","bold":true},{text:" salvandole de la muerte!","color":"yellow"}]
 # ===== RESET =====
 # Resetear el marcador de uso de tótem para el siguiente uso
 execute as @a[scores={used_totem=1}] run scoreboard players set @s used_totem 0
