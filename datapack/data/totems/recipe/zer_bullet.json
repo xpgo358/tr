@@ -1,10 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "Bullet",
+  "group": "totems",
   "category": "misc",
   "ingredients": [
     [
       "minecraft:totem_of_undying"
+    ],
+    [
+      "minecraft:red_carpet"
     ]
   ],
   "result": {

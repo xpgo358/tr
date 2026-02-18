@@ -27,36 +27,6 @@ scoreboard objectives add used_oldtotem dummy
 scoreboard objectives add used_dunya dummy
 scoreboard objectives add used_luna dummy
 scoreboard objectives add used_yuki dummy
-
-#Crear los triggers
-scoreboard objectives add Sneaking1 dummy
-scoreboard objectives add Sneaking2 dummy
-scoreboard objectives add sitotem trigger
-scoreboard objectives add nototem trigger
-scoreboard objectives add felipe trigger
-scoreboard objectives add baku trigger
-scoreboard objectives add tnt trigger
-scoreboard objectives add bullet trigger
-scoreboard objectives add danny trigger
-scoreboard objectives add escarchita trigger
-scoreboard objectives add star trigger
-scoreboard objectives add fiona trigger
-scoreboard objectives add kiki trigger
-scoreboard objectives add jann trigger
-scoreboard objectives add lancer trigger
-scoreboard objectives add laser trigger
-scoreboard objectives add manchas trigger
-scoreboard objectives add mika trigger
-scoreboard objectives add mixu trigger
-scoreboard objectives add neri trigger
-scoreboard objectives add patitas trigger
-scoreboard objectives add ralsei trigger
-scoreboard objectives add rich trigger
-scoreboard objectives add thor trigger
-scoreboard objectives add hds trigger
-scoreboard objectives add totem trigger
-scoreboard objectives add dunya trigger
-scoreboard objectives add luna trigger
-scoreboard objectives add yuki trigger
+scoreboard objectives add used_azalea dummy
 
 tellraw @a {"text":"[totems] Marcadores creados","color":"green"}

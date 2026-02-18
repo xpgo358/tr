@@ -5,13 +5,16 @@
   "ingredients": [
     [
       "minecraft:totem_of_undying"
+    ],
+    [
+      "minecraft:flowering_azalea"
     ]
   ],
   "result": {
     "id": "minecraft:totem_of_undying",
     "components": {
-      "minecraft:item_name": "Kiki",
-      "minecraft:item_model": "belbio_kiki"
+      "minecraft:item_name": "Azalea",
+      "minecraft:item_model": "dalox_azalea"
     },
     "count": 1
   }

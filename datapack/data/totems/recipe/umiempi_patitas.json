@@ -1,10 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "Patitas",
+  "group": "totems",
   "category": "misc",
   "ingredients": [
     [
       "minecraft:totem_of_undying"
+    ],
+    [
+      "minecraft:gray_dye"
     ]
   ],
   "result": {
