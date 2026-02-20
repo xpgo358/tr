@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "totems",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ],
+    [
+      "minecraft:copper_nugget"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Critical Fail",
+      "minecraft:item_model": "isma_fail"
+    },
+    "count": 1
+  }
+}

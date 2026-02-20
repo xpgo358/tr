@@ -88,6 +88,16 @@ execute as @a if score @s used_star matches 1.. run scoreboard players remove @s
 # Mostrar mensaje cuando se usa el tótem de Star
 execute as @a[scores={used_totem=1,used_star=1..}] run tellraw @a [{"text":"¡El deseo de ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" se ha cumplido, dándole una segunda oportunidad!",color:"yellow"}]
 
+# ===== ISMA FAIL =====
+# Detectar si el jugador tiene el tótem de Fail en la mano principal
+execute as @a if items entity @s weapon.mainhand minecraft:totem_of_undying[item_model="isma_fail"] run scoreboard players set @s used_fail 3
+# Detectar si el jugador tiene el tótem de Fail en la mano secundaria
+execute as @a if items entity @s weapon.offhand minecraft:totem_of_undying[item_model="isma_fail"] run scoreboard players set @s used_fail 3
+# Reducir el contador del tótem cada tick
+execute as @a if score @s used_fail matches 1.. run scoreboard players remove @s used_fail 1
+# Mostrar mensaje cuando se usa el tótem de Fail
+execute as @a[scores={used_totem=1,used_fail=1..}] run tellraw @a [{"text":"¡Ese fallo tan critico ha hecho fallar al juego, reviviendo a ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" en el último segundo!",color:"yellow"}]
+
 # ===== JOLYNE LASER =====
 # Detectar si el jugador tiene el tótem de Laser en la mano principal
 execute as @a if items entity @s weapon.mainhand minecraft:totem_of_undying[item_model="jolyne_laser"] run scoreboard players set @s used_laser 3
@@ -107,6 +117,16 @@ execute as @a if items entity @s weapon.offhand minecraft:totem_of_undying[item_
 execute as @a if score @s used_thor matches 1.. run scoreboard players remove @s used_thor 1
 # Mostrar mensaje cuando se usa el tótem de Thor
 execute as @a[scores={used_totem=1,used_thor=1..}] run tellraw @a [{"text":"¡Thor le ha metido un martillazo en la cabeza a la muerte y ha salvado a ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" de volverse un poco Loki!",color:"yellow"}]
+
+# ===== LU LALA =====
+# Detectar si el jugador tiene el tótem de Lala en la mano principal
+execute as @a if items entity @s weapon.mainhand minecraft:totem_of_undying[item_model="lu_lala"] run scoreboard players set @s used_lala 3
+# Detectar si el jugador tiene el tótem de Lala en la mano secundaria
+execute as @a if items entity @s weapon.offhand minecraft:totem_of_undying[item_model="lu_lala"] run scoreboard players set @s used_lala 3
+# Reducir el contador del tótem cada tick
+execute as @a if score @s used_lala matches 1.. run scoreboard players remove @s used_lala 1
+# Mostrar mensaje cuando se usa el tótem de Lala
+execute as @a[scores={used_totem=1,used_lala=1..}] run tellraw @a [{"text":"¡Lala ha repartido amor y ha devuelto a ",color:"yellow"},{"selector":"@s",color:"gold",bold:true},{text:" al combate!",color:"yellow"}]
 
 # ===== MATI YUKI =====
 # Detectar si el jugador tiene el tótem de Yuki en la mano principal

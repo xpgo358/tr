@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "totems",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:totem_of_undying"
+    ],
+    [
+      "minecraft:medium_amethyst_bud"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:item_name": "Lala",
+      "minecraft:item_model": "lu_lala"
+    },
+    "count": 1
+  }
+}
