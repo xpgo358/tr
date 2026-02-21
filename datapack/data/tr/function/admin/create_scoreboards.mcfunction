@@ -8,7 +8,7 @@ scoreboard objectives add streaming-status dummy
 
 # Join message prep
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
-scoreboard players set @a leave 1
+scoreboard players set @a leave 0
 
 #tellraw @a {"text":"[tr] Scoreboards creados","color":"green"}
 
