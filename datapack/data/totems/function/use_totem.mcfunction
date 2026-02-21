@@ -36,7 +36,7 @@ execute as @a if items entity @s weapon.offhand minecraft:totem_of_undying[item_
 # Reducir el contador del tótem cada tick
 execute as @a if score @s used_tnt matches 1.. run scoreboard players remove @s used_tnt 1
 # Mostrar mensaje cuando se usa el tótem de TNT
-execute as @a[scores={used_totem=1,used_tnt=1..}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{text:" se salvó de la muerte gracias a TNT!",color:"yellow","bold":false}]
+execute as @a[scores={used_totem=1,used_tnt=1..}] run tellraw @a [{"selector":"@s",color:"gold",bold:true},{text:" tnt'ed away from death!",color:"yellow","bold":false}]
 
 # ===== CLUC MIXU =====
 # Detectar si el jugador tiene el tótem de Mixu en la mano principal
